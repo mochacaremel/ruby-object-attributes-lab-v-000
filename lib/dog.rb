@@ -1,30 +1,17 @@
 class Dog
-
-  def initialize(name)
-    @name = Fido
+  
+  def name=(dogs_name)
+    @name = dogs_name
   end
-
+  
   def name
-    @name
+    @name 
   end
-
-  def name=(new_name)
-    @name = Fido
+  def breed=(breed)
+    @breed = breed
   end
-
+  
+  def breed
+    @breed
+  end 
 end
-# class Dog
-#
-#   def initialize(name)
-#     #name = Fido
-#   end
-#
-#   def name
-#     @name
-#   end
-#
-#   def name=(new_name)
-#     @name = Fido
-#   end
-#
-# end
