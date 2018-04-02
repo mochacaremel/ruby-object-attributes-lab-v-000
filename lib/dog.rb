@@ -1,7 +1,7 @@
 class Dog
 
   def initialize(name)
-    #name = Fido
+    @name = Fido
   end
 
   def name
@@ -9,7 +9,22 @@ class Dog
   end
 
   def name=(new_name)
-    @name = Fido
+    @name = new_name
   end
 
 end
+# class Dog
+#
+#   def initialize(name)
+#     #name = Fido
+#   end
+#
+#   def name
+#     @name
+#   end
+#
+#   def name=(new_name)
+#     @name = Fido
+#   end
+#
+# end
